@@ -95,3 +95,15 @@ There a few predefined controls available in the Mapbox, like:
  
 ● valid values: 'top-left' , 'top-right' , 'bottom-left' , andbottom-right'. Default: 'top-right'.
  
+---------------------------------------------------------------------------------------------------------
+ 
+ The GeolocateControl can also have many options inside it. But we are going to use:
+
+ positionOptions:
+default:
+{
+enableHighAccuracy:false,
+timeout:6000
+}
+ 
+trackUserLocation: default: false
