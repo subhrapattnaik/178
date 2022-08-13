@@ -56,6 +56,24 @@ we should include these in the <head> tag.
 
  Mapbox also provides their own CSS to use for the maps.We will need to include that also in the
 <head> tag.
- <link href='https://api.mapbox.com/mapboxgl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapboxgl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 
 
+-----------------------------------------------------------------------------------
+ 
+ Now to access the properties and methods of these APIs we will need an access token.
+
+Access tokens are a way to know which user is accessing the APIs.
+Access tokens are entry points to call any of the APIs that we want to use.
+To get the access token, we will have to first create a Mapbox account.
+ 
+ create a mapbox account
+ https://account.mapbox.com/auth/signin/?route-to=%22https://account.mapbox.com/%22
+ 
+ steps to create a/c:
+ https://obj.whitehatjr.com/b16395ba-85d6-40ec-8d46-44c27a20a27a.pdf
+ 
+We will use the “Default public token”” to access the API.
+We are going to use the mapboxgl global variable to use the accessToken property
+ 
+copy the “Default public token” from the Mapbox account dashboard and assigns it to mapboxgl.accessToken property in main.js file.
