@@ -47,3 +47,13 @@ Maps are a good example of graphics.You can easily understand the way from one p
 a map, instead of someone explaining the way.
 
 WebGL is a JavaScript API which helps us to render 2D and 3D graphics
+------------------------------------------------------------------------------------
+A-Fame is built using Three.js library which uses WebGL behind the scenes
+to render 3D objects. Now since we want to use Mapboxlibrary APIs,
+
+we should include these in the <head> tag.
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+
+ Mapbox also provides their own CSS to use for the maps.We will need to include that also in the
+<head> tag.
+ <link href='https://api.mapbox.com/mapboxgl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
