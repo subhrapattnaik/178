@@ -86,7 +86,12 @@ Test the output with zoom level 0. We should be able to see the whole world map.
 To add controls in the Mapbox maps, the Map class provides a method called addControl(control, position).
 
 There a few predefined controls available in the Mapbox, like:
+ 
 ● GeolocateControl: This control provides the button that will use the browser's location to find the current location of the user.
+ 
 ● NavigationControl: This control contains the zoom in and zoomout buttons.
+ 
 ● position: position of the control on the page.
+ 
 ● valid values: 'top-left' , 'top-right' , 'bottom-left' , andbottom-right'. Default: 'top-right'.
+ 
